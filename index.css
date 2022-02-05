@@ -1,0 +1,99 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+.boxes-page-bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxes-card-bg-container {
+  background-color: #ffffff;
+  height: 98vh;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.boxes-card-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-small {
+  background-color: #fbbf24;
+  height: 60px;
+  width: 60px;
+}
+.box-medium {
+  background-color: #38bdf8;
+  height: 110px;
+  width: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box-large {
+  background-color: #ec4899;
+  height: 190px;
+  width: 190px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .boxes-card-bg-container {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 580px;
+  }
+  .main-heading {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .box {
+    font-size: 18px;
+  }
+  .boxes-card-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  .box-small {
+    height: 80px;
+    width: 80px;
+  }
+  .box-medium {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 120px;
+    width: 120px;
+  }
+  .box-large {
+    margin-bottom: 0px;
+    height: 230px;
+    width: 230px;
+  }
+}
